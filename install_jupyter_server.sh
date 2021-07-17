@@ -24,7 +24,7 @@ c.NotebookApp.password = 'sha1:000000000000xxxxxxxxxxxxxxxxxxxx000000000000'
 #Makes server access via internet 
 c.NotebookApp.ip = '0.0.0.0'
 #
-#You can stop here if you just want http and no domain
+#You can stop here if you just want http and no domain nav:http://ec2.ip.address:8888
 #
 #
 #Install TLS
