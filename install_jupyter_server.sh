@@ -34,11 +34,11 @@ sudo yum-config-manager --enable epel*
 sudo yum repolist all
 #select opton 1
 sudo yum install -y certbot
-sudo certbot certonly -d py.lurn.cloud
+sudo certbot certonly -d 'yourdomain.com'
 
 nano ~/.jupyter/jupyter_notebook_config.py
-c.NotebookApp.certfile = 'fullchain.pem'
-c.NotebookApp.keyfile = 'privkey.pem'
+c.NotebookApp.certfile = '/path/fullchain.pem'
+c.NotebookApp.keyfile = '/path/privkey.pem'
 
 
 
