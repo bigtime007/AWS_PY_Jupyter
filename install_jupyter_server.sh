@@ -8,7 +8,7 @@ ipython
 from IPython.lib import passwd
 passwd()
 #Copt sha1 key
-echo "'sha1:00000000000000000000xxxxxxxxxxxxxxxxxxxxxxxxx'" > sha1.pem
+echo "'sha1:000000000000xxxxxxxxxxxxxxxxxxxx000000000000'" > sha1.pem
 #Saved the file on local directory
 #Now Generate a config file for server!
 jupyter-notebook --generate-config
